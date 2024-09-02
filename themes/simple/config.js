@@ -3,9 +3,9 @@ const CONFIG = {
   SIMPLE_LOGO_IMG: '/Logo.webp',
   SIMPLE_TOP_BAR: true, // 显示顶栏
   SIMPLE_TOP_BAR_CONTENT: process.env.NEXT_PUBLIC_THEME_SIMPLE_TOP_TIPS || '',
-  SIMPLE_LOGO_DESCRIPTION: process.env.NEXT_PUBLIC_THEME_SIMPLE_LOGO_DESCRIPTION || '<div>友声誉品牌咨询创始人<br/>/品牌声誉与危机公关专家<br/>/正念领导力导师</div>',
+  SIMPLE_LOGO_DESCRIPTION: process.env.NEXT_PUBLIC_THEME_SIMPLE_LOGO_DESCRIPTION || '<div>友声誉品牌咨询创始人<br/>品牌声誉与危机公关专家<br/>正念领导力导师</div>',
 
-  SIMPLE_AUTHOR_LINK: process.env.NEXT_PUBLIC_AUTHOR_LINK || '#',
+  SIMPLE_AUTHOR_LINK: process.env.NEXT_PUBLIC_AUTHOR_LINK || '',
 
   SIMPLE_POST_AD_ENABLE: process.env.NEXT_PUBLIC_SIMPLE_POST_AD_ENABLE || false, // 文章列表是否插入广告
 
@@ -15,8 +15,8 @@ const CONFIG = {
 
   // 菜单配置
   SIMPLE_MENU_CATEGORY: true, // 显示分类
-  SIMPLE_MENU_TAG: true, // 显示标签
-  SIMPLE_MENU_ARCHIVE: true, // 显示归档
-  SIMPLE_MENU_SEARCH: true // 显示搜索
+  SIMPLE_MENU_TAG: false, // 显示标签
+  SIMPLE_MENU_ARCHIVE: false, // 显示归档
+  SIMPLE_MENU_SEARCH: false // 显示搜索
 }
 export default CONFIG
